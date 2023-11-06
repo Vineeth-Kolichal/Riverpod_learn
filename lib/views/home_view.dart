@@ -10,7 +10,7 @@ class HomeView extends ConsumerWidget {
     final todoList = ref.watch(todoProvider);
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Riverpod Todo'),
+        title: const Text('Riverpod Todo add git testing'),
       ),
       body: Padding(
         padding: EdgeInsets.all(10),
