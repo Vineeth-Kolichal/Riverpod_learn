@@ -7,6 +7,7 @@ class HomeView extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    print('making conflict');
     final todoList = ref.watch(todoProvider);
     return Scaffold(
       appBar: AppBar(
