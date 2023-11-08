@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_todo/providers/todo_provider.dart';
@@ -8,6 +10,7 @@ class HomeView extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final todoList = ref.watch(todoProvider);
+    log('ise');
     return Scaffold(
       appBar: AppBar(
         title: const Text('Riverpod Todo add git testing'),
