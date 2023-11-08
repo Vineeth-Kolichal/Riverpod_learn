@@ -11,7 +11,6 @@ class HomeView extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     print('making conflict');
     final todoList = ref.watch(todoProvider);
-    log('ise');
     return Scaffold(
       appBar: AppBar(
         title: const Text('Riverpod Todo add git testing'),
